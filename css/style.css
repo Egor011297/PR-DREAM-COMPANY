@@ -512,6 +512,11 @@ body {
     padding: 115px 0;
 }
 
+.slider-block__item {
+    padding: 190px 0;
+}
+
+
 .slider-block__item-title {
     font-weight: 700;
     font-size: 36px;
@@ -531,6 +536,11 @@ body {
     display: flex;
 }
 
+.slick-dots li + li {
+    margin-left: 13px;
+} 
+
+
 .slick-dots button {
     background-color: #242121;
     opacity: 0.4;
@@ -542,12 +552,29 @@ body {
     border: none;
 }
 
-.slick-dots li + li {
-    margin-left: 13px;
-} 
 
 .slick-active button {
     opacity: 1;
     width: 10px;
     height: 10px;
+}
+
+.slick-prev,
+.slick-next {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-150%);
+
+}
+
+.slick-prev {
+    left: -95px;
+}
+
+.slick-next {
+    right: -95px;
 }
