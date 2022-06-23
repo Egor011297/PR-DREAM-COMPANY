@@ -500,3 +500,54 @@ body {
     color: #333;
     font-size: 14px;
 }
+
+
+
+
+
+
+
+.slider-block {
+    background-color: #F8F6FA;
+    padding: 115px 0;
+}
+
+.slider-block__item-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 52px;
+    color: #242121;
+    margin-bottom: 10px;
+    max-width: 675px;
+    display: inline-block;
+}
+
+
+.slider-block__item-descr {
+   max-width: 585px;
+}
+
+.slick-dots {
+    display: flex;
+}
+
+.slick-dots button {
+    background-color: #242121;
+    opacity: 0.4;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    font-size: 0;
+    padding: 0;
+    border: none;
+}
+
+.slick-dots li + li {
+    margin-left: 13px;
+} 
+
+.slick-active button {
+    opacity: 1;
+    width: 10px;
+    height: 10px;
+}
